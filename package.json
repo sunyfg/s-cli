@@ -3,14 +3,28 @@
   "version": "1.0.0",
   "description": "",
   "main": "cli.js",
-  "bin": "cli.js",
+  "bin": {
+    "s-cli": "./bin/cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Sun YanFeng",
+    "email": "yanfeng_sun@yeah.net"
+  },
   "license": "ISC",
   "devDependencies": {
+    "fs-extra": "^10.0.0",
     "inquirer": "^8.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "chalk": "^4.1.2",
+    "commander": "^9.0.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "ora": "^5.4.1"
   }
 }
